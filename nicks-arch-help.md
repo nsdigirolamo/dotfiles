@@ -1,3 +1,6 @@
+
+https://wiki.archlinux.org/title/Installation_guide
+
 # **1.0** *First Steps in the Live Environment*
 
 ## **1.1** *Check Internet and Time*
@@ -34,6 +37,11 @@ to have.
 - Home partition (the rest of your storage).
 
 ## **1.3** *Format Partitions*
+
+Make sure you're actually in EFI mode. If below shows without error then you're
+fine.
+
+    # ls /sys/firmware/efi/efivars
 
 Your EFI partition needs to be FAT32.
 
