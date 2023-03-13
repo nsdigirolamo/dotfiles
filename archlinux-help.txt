@@ -89,7 +89,7 @@
 - And now you can exit and reboot
 
 - Post-Install Steps
-    
+
     - Get networking set up
         # nmcli device wifi list
         # nmcli device wifi connect 'NETWORK' password 'PASSWORD'
