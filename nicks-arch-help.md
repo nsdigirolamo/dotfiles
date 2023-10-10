@@ -252,18 +252,22 @@ Below is obviously only for nvidia graphics cards.
 
     # pacman -S nvidia
 
---------------------------------------------------------------------------------
-
 # **5.0** *Install a Minimal Desktop Environment*
 
-# **5.1** *Gnome*
+# **5.1** *GNOME*
 
     # pacman -S gdm gnome-backgrounds gnome-console gnome-control-center gnome-disk-utility gnome-system-monitor gnome-tweaks nautilus baobab cheese eog evince file-roller firefox vlc
+
+Check if the following packages are installed. If they're not, install them. They're required for dark/light themes to apply properly.
+
+    # pacman -S xdg-desktop-portal
+    # pacman -S xdg-desktop-portal-gnome
+
+Then start up gdm!
+
     # systemctl enable gdm.service
     # systemctl start gdm.service
 
 # **5.2** *todo: KDE*
-
---------------------------------------------------------------------------------
 
 # **6.0** *todo: Post-Install Recommendations*
