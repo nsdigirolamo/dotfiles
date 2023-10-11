@@ -256,7 +256,7 @@ Below is obviously only for nvidia graphics cards.
 
 # **5.1** *GNOME*
 
-    # pacman -S gdm gnome-backgrounds gnome-console gnome-control-center gnome-disk-utility gnome-system-monitor gnome-tweaks nautilus baobab snapshot eog evince file-roller firefox vlc
+    # pacman -S gdm gnome-backgrounds gnome-console gnome-control-center gnome-disk-utility gnome-system-monitor gnome-tweaks gnome-font-viewer gnome-calculator gnome-logs gnome-music totem nautilus baobab snapshot loupe evince file-roller firefox vlc
 
 Check if the following packages are installed. If they're not, install them. They're required for dark/light themes to apply properly.
 
