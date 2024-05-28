@@ -1,4 +1,6 @@
 
+**_This guide should absolutely not be used in isolation. This is a supplemental document to the actual guide._**
+
 https://wiki.archlinux.org/title/Installation_guide
 
 # **1.0** *First Steps in the Live Environment*
