@@ -2,14 +2,6 @@
 
 Here are some themes and icons I enjoy using.
 
-### Orchis Compact Dark System Theme
-
-https://github.com/vinceliuice/Orchis-theme
-
-Check github for instructions. Below is a command that could be used:
-
-    $ ./install -c dark --tweaks compact primary submenus -l
-
 ### MoreWaita Icons Theme
 
 https://github.com/somepaulo/MoreWaita
